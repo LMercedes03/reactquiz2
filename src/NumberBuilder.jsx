@@ -14,7 +14,7 @@ export const NumberBuilder = () => {
       }
 
     return (
-    <div className="addButton">
+    <div>
         <button onClick={() => onHandleClick()}>Add Number</button>
         <button onClick={() => onHandleReset()}>Reset</button>
         <br></br>
